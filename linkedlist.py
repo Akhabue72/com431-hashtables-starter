@@ -9,6 +9,7 @@ class TuplesLinkedList:
     # TODO modify "add()" so that it takes a key and a value as parameters and 
     # creates a  tuple using them. The Node should then be created using the 
     # tuple.
+    # Done
     def add(self, key, value):
         n = Node((key, value))
         if self.first is None:
@@ -32,6 +33,7 @@ class TuplesLinkedList:
     # TODO modify "find()" so that it takes a KEY as a parameter  and searches 
     # the linked list until it finds a tuple with that key. It should then
     # return the value (i.e. the second member of the tuple)
+    # Done?
     def find(self, key):
         current_node = self.first
         while current_node is not None:
